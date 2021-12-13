@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>PERSONAL WEBSITE</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="w3-large"><i class="fa fa-home"></i><a href="#home">Home</a></li>
+            <li class="w3-large"><i class="fa fa-user"></i><a href="#about">About Me</a></li>
+            <li class="w3-large"><i class="fa fa-hand-o-right"></i><a href="#portfolio">Portfolio</a></li>
+            <li class="w3-large"><i class="fa fa-certificate"></i><a href="#services">Services</a></li>
+            <li class="w3-large"><i class="fa fa-phone"></i><a href="#contact">Contact Me</a></li>
+     </ul>
+   </nav>
+
+   <section id="home">
+    <div class="main">
+        <h1 class="headings">I AM <br> KIRRUPESWARAN THUSYANTHAN</h1>
+        <button class="btn">
+            <a href="CV Thusy.pdf" class="A">CLICK FOR CV</a> 
+        </button>
+    </div>
+</section>
+
+<section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+        <img src="PHOTO1.jpeg" alt="">
+        <div id="intro">
+            <h2>KIRRUPESWARAN THUSYANTHAN</h2>
+            <P>I am Working as a Managment Assistant in NAQDA. I am Student of BIT in Colombo University of Computing School. My goal is become a IT Manager and Wep Developer so my future plan is i want to complete my BIT Degree and AI Engineer additional certificate.</P>
+             <br> <br> <h1>I have Following</h1>
+            <p>
+                <ul class="B">
+                    <li>BIT Degree</li> 
+                    <li>Full Stack Web Development</li> 
+                    <li>HTML ................................ 80%</li> 
+                    <li>CSS  ................................ 60%</li> 
+                    <li>JAVASCRIPT .......................... 55%</li>
+                </ul>
+            
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <h1 class="headings">FORTFOLIO</h1>
+    <div class="gallery">
+        <img src="MA.jpeg" alt="na" onclick="myFunction(this);">
+        <img src="MS.jpeg" alt="">
+        <img src="Hotel.jpeg" alt="">
+        <img src="LOLC1.jpeg" alt="">
+        <img src="LOLC2.jpeg" alt="">
+        <img src="Phone.jpeg" alt="">
+    </div>
+</section>
+
+<section id="services">
+    <h1 class="headings">SERVICES</h1>
+    <div class="row">
+        <div class="box">
+            <img src="service 1.jpg" alt="">
+            <h1 class="headings">Management Assistant</h1>
+            <p>I have continuing working for Management Assistant in National Aquaculture Development Authority of Sri Lanka and I successfully participated at training on the duties(book keeping, accounting) and Financial responsibilities of Management Assistant conducted by NAQDA.</p>
+    </div>
+    <div class="box">
+        <img src="service 2.jpg" alt="">
+        <h1 class="headings">Phone Repairing</h1>
+        <p>I successfully completed Diploma In Mobile Phone Repair.</p>
+</div>
+        </div>
+</section>
+
+<section id="contact">
+    <h1 class="headings">CONTACT</h1>
+    <form action="mailto: kiruthusy5@gmail.com" class="form" method="post" enctype="text/plain">
+    <input type="text" name="name" class="input" placeholder="Enter Your Name">
+    <input type="email" name="email" class="input" placeholder="Enter Your Email">
+    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+    <input type="submit" value="SEND" id="send">
+    </form>
+</section>
+
+
+
+  
+    
+</body>
+</html>
